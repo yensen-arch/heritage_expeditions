@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Wildlife-Rich Itineraries",
-  description: "Sail to remote habitats alive with penguins, whales, albatrosses, and rare endemic species, accompanied by expert naturalists.",
+  title: "Pioneering Expedition Cruising",
+  description: "Family-owned, New Zealand-based company exploring Earth’s wildest corners for 35+ years.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Small-Ship Adventure",
-  description: "Explore aboard purpose-built expedition vessels designed to navigate ice, fjords, and shallow bays inaccessible to larger ships.",
+  title: "True Wilderness Access",
+  description: "Small ship size allows access to pristine regions across the Subantarctic, Russian Far East, and more.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Authentic Cultural Encounters",
-  description: "Engage with Indigenous communities and discover unique traditions, arts, and ways of life on guided landings and visits.",
+  title: "Conservation Focused",
+  description: "Operates with strong environmental values, supporting wildlife conservation and local communities.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Conservation-Focused Travel",
-  description: "Each voyage supports environmental awareness and sustainable practices, with passionate guides sharing knowledge and respect for every ecosystem.",
+  title: "Scientific & Naturalist Guides",
+  description: "Travel alongside world-renowned experts in wildlife, geology, and polar research.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Heritage Expeditions Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
